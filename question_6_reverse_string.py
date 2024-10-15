@@ -1,6 +1,3 @@
-# This code contains errors that you need to fix it. Read carefully and do necessary corrections.
-# Run the code at online-python.com or IDLE PYTHON before you commit the changes at github.com
-
 # This program is used to reverse a string.
 
 def string_reverse(str1):
@@ -18,9 +15,10 @@ def string_reverse(str1):
         index -= 1
     
     # Return the reversed string stored in 'rstr1'
-    return rst1
+    return rstr1
 
 def main():    
+    str1 = '12345abcde'  # Define str1 here
     print("String reverse for \'12345abcde\' is", string_reverse(str1))
 
 # Don't change the code below!
